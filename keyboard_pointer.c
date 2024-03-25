@@ -20,3 +20,28 @@ void draw(void){
     glFlush();
 }
 
+// Function for draw a cube
+void cube(){
+    glColor3i(0, 0, 0); // Black color
+    glBegin(GL_QUADS);
+    
+        // Side 1
+        glVertex2i(350, 399);
+        glVertex2i(462, 460);
+        glVertex2i(350, 522);
+        glVertex2i(238, 460);
+        
+        // Side 2
+        glVertex2i(350, 399);
+        glVertex2i(238, 460);
+        glVertex2i(238, 319);
+        glVertex2i(350, 257);
+        
+        // Side 3
+        glVertex2i(350, 399);
+        glVertex2i(350, 257);
+        glVertex2i(462, 319);
+        glVertex2i(462, 460);
+    glEnd();
+}
+
