@@ -48,7 +48,7 @@ void cube(){
 // Function for keyboard event
 void keyEvent(unsigned char k, int x, int y){
     if (k){
-        glColor3f(1.0, 1.0, 1.0);
+        glColor3f(1.0, 1.0, 1.0); // White color
         glBegin(GL_LINES);
         
             // Line 1
