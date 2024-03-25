@@ -45,3 +45,23 @@ void cube(){
     glEnd();
 }
 
+// Function for keyboard event
+void keyboard_mt(unsigned char k, int x, int y){
+    if (k){
+        glColor3f(1.0, 1.0, 1.0);
+        glBegin(GL_LINES);
+        
+            // Line 1
+            glVertex2f(238, 460);
+            glVertex2f(350, 399);
+            
+            // Line 3
+            glVertex2f(462, 460);
+            glVertex2f(350, 399);
+            
+            // Line 3
+            glVertex2f(350, 257);
+            glVertex2f(350, 399);
+        glEnd();
+    }
+}
