@@ -31,6 +31,7 @@ int main(int argc, char** argv) {
     initialize();
     glutDisplayFunc(draw);
     glutKeyboardFunc(keyboard_mt);
+    glutMouseFunc(pointer_mt);
     glutMainLoop();
     return (EXIT_SUCCESS);
 }
