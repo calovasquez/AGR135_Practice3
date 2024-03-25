@@ -65,3 +65,14 @@ void keyboard_mt(unsigned char k, int x, int y){
         glEnd();
     }
 }
+
+// Function for pointer event
+void pointer_mt(int button, int state, int x, int y){
+    if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN){
+        glColor3f(0, 0, 0); // Black color
+        // Drawing name
+        glRasterPos2i(325, 200);
+        glutBitmapString(GLUT_BITMAP_HELVETICA_18, "Cube");
+        glFlush();
+    }
+}
