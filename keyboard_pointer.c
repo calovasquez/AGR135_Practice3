@@ -55,7 +55,7 @@ void keyboard_mt(unsigned char k, int x, int y){
             glVertex2f(238, 460);
             glVertex2f(350, 399);
             
-            // Line 3
+            // Line 2
             glVertex2f(462, 460);
             glVertex2f(350, 399);
             
