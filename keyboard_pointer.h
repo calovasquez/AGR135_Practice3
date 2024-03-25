@@ -20,7 +20,7 @@ extern "C" {
 // Headers
 void initialize(void); // Projection function
 void draw(void); // Main function
-void cube();
+void cube(); // Function where the cube is drawn
 void keyboard_mt(unsigned char,int,int); // Keyboard event function
 void pointer_mt(int,int,int,int); // Pointer event function
 #endif /* KEYBOARD_POINTER_H */
