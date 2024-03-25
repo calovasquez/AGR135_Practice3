@@ -18,7 +18,7 @@
 #include "./keyboard_pointer.h"
 
 /*
- * 
+ * This practice 3 consists of using keyboard and pointer events using OpenGL
  */
 
 int main(int argc, char** argv) {
