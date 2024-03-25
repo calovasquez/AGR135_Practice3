@@ -46,7 +46,7 @@ void cube(){
 }
 
 // Function for keyboard event
-void keyboard_mt(unsigned char k, int x, int y){
+void keyEvent(unsigned char k, int x, int y){
     if (k){
         glColor3f(1.0, 1.0, 1.0);
         glBegin(GL_LINES);
@@ -67,7 +67,7 @@ void keyboard_mt(unsigned char k, int x, int y){
 }
 
 // Function for pointer event
-void pointer_mt(int button, int state, int x, int y){
+void mouseEvent(int button, int state, int x, int y){
     if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN){
         glColor3f(0, 0, 0); // Black color
         // Drawing name
