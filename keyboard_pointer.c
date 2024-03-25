@@ -63,6 +63,7 @@ void keyEvent(unsigned char k, int x, int y){
             glVertex2f(350, 257);
             glVertex2f(350, 399);
         glEnd();
+        glFlush();
     }
 }
 
