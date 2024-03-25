@@ -30,8 +30,8 @@ int main(int argc, char** argv) {
     glClearColor(1, 1, 1, 1); // White color
     initialize();
     glutDisplayFunc(draw);
-    glutKeyboardFunc(keyboard_mt);
-    glutMouseFunc(pointer_mt);
+    glutKeyboardFunc(keyEvent);
+    glutMouseFunc(mouseEvent);
     glutMainLoop();
     return (EXIT_SUCCESS);
 }
