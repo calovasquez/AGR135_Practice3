@@ -30,6 +30,7 @@ int main(int argc, char** argv) {
     glClearColor(1, 1, 1, 1); // White color
     initialize();
     glutDisplayFunc(draw);
+    glutKeyboardFunc(keyboard_mt);
     glutMainLoop();
     return (EXIT_SUCCESS);
 }
